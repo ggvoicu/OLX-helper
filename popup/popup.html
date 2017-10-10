@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="popup.css">
+<meta charset="utf-8"/>
+</head>
+<body>
+
+<label><span>Text anunturi:</span>
+<textarea id="customText"> </textarea></label>
+
+<button id="textButton">Salveaza</button>
+<hr>
+<div id="predefinedMsg">
+<label>
+<span>Or select a predefined text:</span>
+<select id="messageSelection">
+		<option value="none" selected>Saved texts</option>
+		<option value="text1">1</option>
+		<option value="text2">2</option>
+		<option value="text3">3</option>
+</select>
+</label>
+</div> 
+<hr>
+<div id="openTabs">
+<label>
+<span>Numar tab-uri de deschis:</span> 
+<input id="nrTab"></input>
+</label>
+<button id="open">Deschide anunturi</button>
+</div>
+
+<div id="error">
+
+</div>
+
+<script src="popup.js"></script>
+</body>
+
+</html>

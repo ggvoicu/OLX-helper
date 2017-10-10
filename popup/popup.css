@@ -1,0 +1,54 @@
+body{
+	background-color: lightblue;
+}
+
+div.normal{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+label span{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+button#textButton{
+	height:106px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	vertical-align: top;
+}
+
+textarea{
+	resize:none;
+	height:100px;
+	width:250px;
+}
+
+#error{
+	background-color: red;
+	color: black;
+	align-content: center;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+button#open{
+	width:auto;
+}
+input{
+	width:20px;
+}
+
+select{
+	width:auto;
+}
